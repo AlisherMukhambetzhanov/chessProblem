@@ -1,6 +1,8 @@
 # chessProblem
 
-Запуск с помощью Maven. Нужно зайти в директорию через командную строку и прописать mvn spring-boot:run
+Запуск с помощью Maven. Нужно зайти в директорию через командную строку и прописать 
+
+mvn spring-boot:run
 
 http://%ваш локалхост%/eightQueensProblem?row=a&column=4
 
