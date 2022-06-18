@@ -102,7 +102,7 @@ public class EightQueenProblem {
 		int count = 1;
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                if (board[i][j] == 1 && i != row && j != column) {
+                if (board[i][j] == 1 && (i != row || j != column)) {
                     result[count][0] = i+1;
                     result[count][1] = j+1;
                     count++;
